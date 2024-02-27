@@ -1,0 +1,28 @@
+[project]
+name = "ngramso"
+version = "1.0.0"
+license = {file = "LICENSE"}
+authors = [
+  { name="bakircius", email="burakbakirci@gmail.com" },
+]
+description = "Making Ngram Analysis from Stack Overflow Questions Dataframe"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = [
+    "requests",
+    "pandas",
+    "numpy",
+    "sosq",
+    "emek"
+]
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+[project.urls]
+Homepage = "https://github.com/bakircius/ngramso"
+Issues = "https://github.com/bakircius/ngramso/issues"
+Repository = "https://github.com/bakircius/ngramso.git"
+[tool.pytest.ini_options]
+pythonpath = "src"
